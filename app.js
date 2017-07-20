@@ -1,3 +1,6 @@
 // Using my created framework
-var person = G$('John', 'Doe');
-console.log(person);
+$('#loginBtn').click(function(){
+    var loginGrtr = G$('Tarun', 'Nagpal');
+    $('#loginDiv').hide();
+    loginGrtr.setLang($('#language').val()).HTMLGreetings('#heading', true).log();
+});
